@@ -1,20 +1,11 @@
+/* Randomly generated star field by Chuck Leone
+/* 
+ */ 
+
 var canvas = document.getElementById('myCanvas'),
 context = canvas.getContext('2d');
 
 var ranNum = Math.floor((Math.random() * 100) +1);
-
-myAnimation = function(){
- for (i=1; i<=100;  i++) {
-  context.beginPath();
-  context.moveTo(ranNum, ranNum);
-  context.lineTo(100, 150);
-  context.stroke();
- 
- }
- return;
-};
-
-//myAnimation();
 
 myStars = function(){
 // 	var rnd = Math.floor((Math.random()*200) +1);
@@ -86,7 +77,6 @@ myStars = function(){
  		y = rndY;
  		context.fillStyle = 'rgb(155, 255, 251)'; // mint green
   		context.fillRect(x, y, 4, 4);
-  		//context.fillStyle = 'rgb(255, 0, 0)';
   		context.fillRect(x+1, y-1, 1, 1);
   		context.fillRect(x+2, y-1, 1, 1);
   		context.fillRect(x+4, y+2, 1, 1);
