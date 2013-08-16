@@ -1,5 +1,7 @@
 /* Randomly generated star field by Chuck Leone
-/* 
+/* Use as you like, please credit me if you do
+/* email: chuckleone@gmail.com
+/* twitter @ChuckLeone 
  */ 
 
 var canvas = document.getElementById('myCanvas'),
